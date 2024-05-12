@@ -9,7 +9,7 @@ app = Flask(__name__)
 def homepage():
   resposta = {'total_vendas': 'total_vendas'}
   return jsonify(resposta)
-
+ 
 
 def select_pode_ir():
   # Conexão e cursor
